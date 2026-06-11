@@ -27,6 +27,9 @@ function factorial(n) {
 
     return result;
 }
+function formatResult(value) {
+    return parseFloat(Number(value).toFixed(5));
+}
 
 function calculate() {
 
